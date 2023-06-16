@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.crypto.activity.CoinActivity
@@ -127,6 +128,7 @@ class MarketActivity : AppCompatActivity() , MarketAdapter.RecyclerCallback{
 
             override fun onError(errorMessage: String) {
                 Toast.makeText(this@MarketActivity, errorMessage, Toast.LENGTH_SHORT).show()
+                Log.v("messageError1" , errorMessage)
             }
 
 

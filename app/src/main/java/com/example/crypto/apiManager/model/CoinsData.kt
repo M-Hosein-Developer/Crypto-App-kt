@@ -250,7 +250,7 @@ data class CoinsData(
                 @SerializedName("MKTCAP")
                 val mKTCAP: Double,
                 @SerializedName("MKTCAPPENALTY")
-                val mKTCAPPENALTY: Int,
+                val mKTCAPPENALTY: Double,
                 @SerializedName("OPEN24HOUR")
                 val oPEN24HOUR: Double,
                 @SerializedName("OPENDAY")
